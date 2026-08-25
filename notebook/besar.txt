@@ -1,0 +1,4 @@
+baris pertama
+ada galat pada baris ini
+baris ketiga
+galat lagi di sini

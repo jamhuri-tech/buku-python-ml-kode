@@ -67,20 +67,24 @@ pelajaran, bukan kerusakan.
 
 ## Keadaan saat ini
 
-Seluruh 186 sel dijalankan ulang sebelum repositori ini diterbitkan.
+Seluruh **187 sel dijalankan ulang** sebelum repositori ini diterbitkan,
+dan **ketujuh belas notebook berjalan tuntas**. Tidak ada galat tak
+terduga yang tersisa.
 
-- **11 notebook berjalan tuntas** tanpa galat tak terduga, yaitu bab 1,
-  2, 4, 5, 7, 8, 9, 11, 12, 13, dan 14.
-- **6 notebook masih menyisakan 14 galat**, yaitu bab 3, 6, 10, 15, 16,
-  dan 17.
+Tiga belas sel memunculkan galat, dan **ketiga belasnya memang
+disengaja**, yaitu bagian dari pelajaran seperti dijelaskan di atas.
 
-Sebabnya bab-bab itu melanjutkan keadaan dari bab sebelumnya lewat
-penjelasan prosa di buku, bukan lewat listing. Sebagian sudah ditangani
-sel *Persiapan*, sisanya belum. Bab 6 juga membaca berkas contoh yang
-dibuat pembaca sendiri saat mengikuti bukunya.
+Delapan bab memuat sel *Persiapan* di bagian atasnya. Bab-bab itu
+melanjutkan contoh dari bab sebelumnya, dan di dalam buku sambungannya
+dijelaskan lewat prosa sehingga listingnya sendiri tidak mengulang
+penyiapan datanya. Sel Persiapan menyediakan penyiapan itu supaya tiap
+notebook dapat dijalankan sendiri dari atas.
 
-Perbaikannya sedang dikerjakan. Laporkan lewat *issue* bila Anda
-menemukan yang lain.
+Satu catatan kejujuran untuk Bab 15. Buku tidak mencetak pembangkit
+data klasifikasinya, jadi sel Persiapan di sana berisi rekonstruksi
+yang sifatnya sama, yaitu dua kelas dengan kelas positif sekitar enam
+persen. **Angkanya tidak akan sama persis dengan yang tercetak di
+buku.** Hal ini ditandai langsung di dalam selnya.
 
 ## Lisensi
 
