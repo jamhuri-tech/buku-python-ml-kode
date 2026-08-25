@@ -1,0 +1,9 @@
+# Versi yang dipakai saat buku ditulis. Bab 10 mengandalkan perilaku
+# pandas 3.0 yang berbeda dari versi 2, jadi batas bawahnya tegas.
+numpy>=2.0
+pandas>=3.0
+matplotlib>=3.8
+scikit-learn>=1.5
+scipy>=1.11
+sympy>=1.13
+jupyterlab>=4.0

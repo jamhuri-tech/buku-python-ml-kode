@@ -1,0 +1,9 @@
+{
+  "produk": "Nastar",
+  "jumlah": 3,
+  "harga": 85000,
+  "kanal": [
+    "toko",
+    "online"
+  ]
+}
