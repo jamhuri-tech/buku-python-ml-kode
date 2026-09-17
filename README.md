@@ -1,14 +1,22 @@
 # Kode pendamping buku *Python untuk Machine Learning dan Data Science*
 
-Notebook berisi seluruh kode contoh yang tercetak di buku, satu notebook
-untuk tiap bab. Isinya dibangkitkan langsung dari naskah LaTeX bukunya,
-sehingga kode di sini tidak pernah melenceng dari yang Anda baca.
+Repositori ini menyediakan dua jenis notebook:
+
+- **[Praktikum mahasiswa](praktikum/)** — latihan Bab 3–17 dengan sel yang
+  harus dilengkapi, pengujian terbuka, dan refleksi akhir.
+- **[Contoh kode buku](notebook/)** — seluruh kode contoh yang tercetak
+  di buku, satu notebook per bab, dibangkitkan langsung dari naskah LaTeX.
+
+Untuk mengerjakan praktikum, mulai dari **[panduan dan daftar notebook
+praktikum](praktikum/README.md)** atau **[unduh paket mahasiswa
+Bab 3–17](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktikum-bab-03-17-v2-MAHASISWA.zip)**.
+Ekstrak ZIP, lalu impor file `.ipynb` yang dipilih ke Kaggle atau Google Colab.
 
 Buku: **Python untuk Machine Learning dan Data Science**
 oleh Mohammad Jamhuri, Hisyam Fahmi, dan Muhammad Khudzaifah.
 17 bab, 307 halaman.
 
-## Cara memakai
+## Menjalankan contoh kode buku secara lokal
 
 ```bash
 git clone https://github.com/jamhuri-tech/buku-python-ml-kode.git
@@ -27,7 +35,22 @@ Tanpa memasang apa pun, notebook ini juga dapat dibuka langsung di
 Google Colab maupun Kaggle. Ingat bahwa kedua layanan itu tidak membaca
 `requirements.txt`, jadi periksa versi pustakanya lebih dahulu.
 
-## Isi
+## Notebook praktikum mahasiswa
+
+Pembaruan **17 September 2026** memuat **15 notebook praktikum**. Bab 3
+menggunakan versi **v3**, sedangkan Bab 4–17 menggunakan versi **v2**.
+
+- Satu fungsi mandiri per sel; pemanggilan dan pengujiannya terpisah.
+- Spasi dan baris kosong dirapikan; sel kode paling panjang 28 baris.
+- Sel `[ISI KODE]` menunjukkan pekerjaan mahasiswa; pengujian dapat dibaca.
+- Bagian **Refleksi akhir** membantu mahasiswa menjelaskan pemahaman dan kesulitan.
+
+**[Lihat notebook, tautan unduh, dan pemetaan pertemuan →](praktikum/README.md)**
+
+Notebook mahasiswa disimpan tanpa output jawaban. Kunci asisten tidak
+disertakan dalam repositori atau paket mahasiswa.
+
+## Isi notebook contoh buku
 
 | Notebook | Bab | Sel kode |
 |---|---|---|
@@ -58,14 +81,14 @@ Berkas pendukung di `notebook/`:
 | `periksa_lingkungan.py` | pemeriksa versi Python dan pustaka |
 | `siapkan.py` | penyiapan data bersama antarbab |
 
-## Sebagian sel memang dirancang gagal
+## Sebagian sel contoh buku memang dirancang gagal
 
 Buku ini mengajarkan jebakan yang lazim, jadi beberapa sel **sengaja**
 memunculkan galat. Contohnya `TypeError` waktu mencoba mengubah tuple,
 dan `UnboundLocalError` pada contoh lingkup. Galat itu bagian dari
 pelajaran, bukan kerusakan.
 
-## Keadaan saat ini
+## Validasi notebook contoh buku
 
 Seluruh **187 sel dijalankan ulang** sebelum repositori ini diterbitkan,
 dan **ketujuh belas notebook berjalan tuntas**. Tidak ada galat tak

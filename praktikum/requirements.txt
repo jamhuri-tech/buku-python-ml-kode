@@ -1,0 +1,10 @@
+# Kebutuhan notebook praktikum; contoh kode buku memakai requirements.txt di root.
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.5
+scipy>=1.11
+sympy>=1.13
+joblib>=1.3
+pillow>=10
+jupyterlab>=4.0
