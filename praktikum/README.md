@@ -14,7 +14,7 @@ Untuk Bab 1–2, [contoh kode buku](../notebook/) tetap tersedia.
 
 | Pertemuan | Bab | Materi dan pratinjau | Unduh notebook |
 |---|---|---|---|
-| 02 | 3 | [Percabangan dan Perulangan](praktik-bab-3-percabangan-perulangan-v3.ipynb) | [Unduh](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-3-percabangan-perulangan-v3.ipynb) |
+| 02 | 3 | [Percabangan dan Perulangan](praktik-bab-03-percabangan-perulangan-v3.ipynb) | [Unduh](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-03-percabangan-perulangan-v3.ipynb) |
 | 03 | 4 | [Fungsi, Lingkup, dan Modul](praktik-bab-04-fungsi-lingkup-modul-v2.ipynb) | [Unduh](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-04-fungsi-lingkup-modul-v2.ipynb) |
 | 04 | 5 | [Struktur Data Bawaan](praktik-bab-05-struktur-data-v2.ipynb) | [Unduh](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-05-struktur-data-v2.ipynb) |
 | 05 | 6 | [Berkas, Pengodean, dan Penanganan Galat](praktik-bab-06-berkas-exception-v2.ipynb) | [Unduh](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-06-berkas-exception-v2.ipynb) |
@@ -33,6 +33,10 @@ Untuk Bab 1–2, [contoh kode buku](../notebook/) tetap tersedia.
 Pertemuan yang merujuk beberapa bab menyediakan beberapa notebook. Pilih latihan
 sesuai arahan pengajar dan lanjutkan bagian lainnya sebagai latihan mandiri.
 Notebook ini memuat latihan pilihan dan pengembangan, bukan seluruh soal akhir bab.
+
+Bab 3 memakai nama berkas `bab-03` agar urut bersama bab lainnya.
+Berkas lama dengan nama `bab-3` tetap tersedia dengan isi yang sama untuk
+menjaga tautan lama; cukup unduh salah satunya.
 
 ## Mengerjakan di Kaggle atau Colab
 

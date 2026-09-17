@@ -12,6 +12,10 @@ praktikum](praktikum/README.md)** atau **[unduh paket mahasiswa
 Bab 3–17](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktikum-bab-03-17-v2-MAHASISWA.zip)**.
 Ekstrak ZIP, lalu impor file `.ipynb` yang dipilih ke Kaggle atau Google Colab.
 
+**Mulai Bab 3 — Percabangan dan Perulangan:**
+[buka notebook praktikum](praktikum/praktik-bab-03-percabangan-perulangan-v3.ipynb)
+atau [unduh untuk Kaggle](https://raw.githubusercontent.com/jamhuri-tech/buku-python-ml-kode/main/praktikum/praktik-bab-03-percabangan-perulangan-v3.ipynb).
+
 Buku: **Python untuk Machine Learning dan Data Science**
 oleh Mohammad Jamhuri, Hisyam Fahmi, dan Muhammad Khudzaifah.
 17 bab, 307 halaman.
